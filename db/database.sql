@@ -10,8 +10,8 @@ CREATE TABLE employee(
 );
 
 INSERT INTO employee VALUES
-    (1, 'Andres',100000000)
-    (2, 'Juan',10)
-    (3, 'Pedro',1000)
-    (4, 'Alejandro',150)
+    (1, 'Andres',100000000),
+    (2, 'Juan',10),
+    (3, 'Pedro',1000),
+    (4, 'Alejandro',150),
     (5, 'Joan',5)
