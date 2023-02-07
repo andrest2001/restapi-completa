@@ -3,7 +3,7 @@ const pool=require('../db.js')
 
 const getEmployees = async(req, res, next) =>{
     try{
-        throw new Error('Mi error')
+        
         const[row]=await pool.query('SELECT * FROM employee')
         res.json(row);
     }catch(error){
